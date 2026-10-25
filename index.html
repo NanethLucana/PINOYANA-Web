@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINOYANA | Ginataang Palitaw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input type="radio" name="page" id="home" checked>
+<input type="radio" name="page" id="about">
+<input type="radio" name="page" id="products">
+<input type="radio" name="page" id="ingredients">
+<input type="radio" name="page" id="why">
+<input type="radio" name="page" id="order">
+<input type="radio" name="page" id="gallery">
+<input type="radio" name="page" id="team">
+<input type="radio" name="page" id="feedback">
+<input type="radio" name="page" id="contact">
+
+<div class="website">
+    <header class="header">
+        <a href="#home" class="logo" onclick="document.getElementById('home').checked=true;return false;">
+            <span class="logo-icon">🥥</span>
+            <span>PINOYANA<small> L U T O N G  P I N O Y</small></span>
+        </a>
+        <nav class="navigation">
+            <label for="home">Home</label>
+            <label for="about">About</label>
+            <label for="products">Products</label>
+            <label for="ingredients">Ingredients</label>
+            <label for="why">Why Us</label>
+            <label for="order">Order</label>
+            <label for="gallery">Gallery</label>
+            <label for="team">Team</label>
+            <label for="feedback">Feedback</label>
+            <label for="contact">Contact</label>
+        </nav>
+    </header>
+    <main class="pages">
+
+        
+
+<section class="page home-page" id="home">
+    <div class="home-content">
+        <span class="eyebrow">A TASTE OF FILIPINO GOODNESS</span>
+        <h1>Sweet Moments,<br>
+            <span>Filipino Flavors!</span> </h1>
+        <h2 class="home-product-title">GINATAANG PALITAW</h2>
+        <p>
+            Enjoy the soft and chewy goodness of palitaw
+            with rich and creamy coconut milk. A Filipino
+            favorite made to satisfy your sweet cravings!
+        </p>
+        <div class="floating-price">
+            <span class="price-label">OUR VARIANTS</span>
+            <div class="variant-price">
+                <span>Original</span>
+                <strong>₱15</strong>
+            </div>
+            <div class="variant-price">
+                <span>Innovated</span>
+                <strong>₱20</strong>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <label for="order" class="btn primary">Order Now ↗</label>
+            <label for="products" class="btn secondary">Explore Products</label>
+        </div>
+        <p class="tagline">♡ Lutong Pinoy, Sarap Enjoy! ♡</p>
+    </div>
+    <div class="hero-image">
+        <div class="image-circle"></div>
+        <img src="images/palitaw.jpg"
+             alt="Actual PINOYANA Ginataang Palitaw">
+        <span class="floating-note">Made with love ♡</span>
+    </div>
+</section>
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">GET TO KNOW US</span>
+                <h1>About <span>PINOYANA</span></h1>
+                <p>A simple Filipino delicacy with a special touch.</p>
+            </div>
+            <div class="about-layout">
+                <div class="about-photo">
+                    <img src="images/main-product.jpg"
+                         alt="Ginataang Palitaw">
+                    <div class="photo-caption">A Filipino favorite ♡</div>
+                </div>
+
+                <div class="about-text">
+                    <span class="mini-label">OUR SIGNATURE TREAT</span>
+                    <h2>GINATAANG PALITAW</h2>
+                    <p>
+                        Ginataang Palitaw is a Filipino delicacy made
+                        with soft and chewy rice balls in rich and
+                        creamy coconut milk. PINOYANA offers Original
+                        and Innovated variants that bring a delightful
+                        twist to this traditional Filipino favorite
+                        at an affordable price.
+                    </p>
+
+                    <div class="goal-card">
+                        <h3>🌼 Our Goal</h3>
+                        <p>
+                            Our goal is to provide a delicious,
+                            affordable, and satisfying Filipino treat
+                            while sharing the goodness of local
+                            delicacies and creating a memorable
+                            experience for every customer.
+                        </p>
+                    </div>
+
+                    <p class="tagline">Lutong Pinoy, Sarap Enjoy!</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">MADE FOR YOUR CRAVINGS</span>
+                <h1>Explore Our <span>Products</span></h1>
+                <p>Two delicious variants. One affordable price.</p>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="images/original.jpg"
+                         alt="Original Ginataang Palitaw">
+                    <div class="product-info">
+                        <span class="product-number">01 / CLASSIC</span>
+                        <h2>Original Ginataang Palitaw</h2>
+                        <p>
+                            Enjoy the classic taste of soft and chewy
+                            palitaw mixed with rich and creamy coconut
+                            milk. A simple Filipino favorite with
+                            just the right amount of sweetness.
+                        </p>
+                        <div class="product-bottom">
+                            <strong>₱15 <small>/ serving</small></strong>
+                            <label for="order" class="small-btn">Order +</label>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/innovated.jpg"
+                         alt="Innovated Ginataang Palitaw">
+                    <div class="product-info">
+                        <span class="product-number">02 / CREATIVE</span>
+                        <h2>Innovated Ginataang Palitaw</h2>
+                        <p>
+                            Try our creative version topped with toasted coconut milk curds for added texture and a unique twist on the classic Filipino favorite.
+                        </p>
+                        <div class="product-bottom">
+                            <strong>₱20 <small>/ serving</small></strong>
+                            <label for="order" class="small-btn">Order +</label>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">SIMPLE AND DELICIOUS</span>
+                <h1>Our <span>Ingredients</span></h1>
+                <p>Made with simple ingredients and a whole lot of care.</p>
+            </div>
+
+            <div class="ingredient-grid">
+                <article class="ingredient">
+                    <img src="images/rice-flour.jpg" alt="Glutinous rice flour">
+                    <h3>Glutinous Rice Flour</h3>
+                    <p>Gives the palitaw its soft and chewy texture.</p>
+                </article>
+
+                <article class="ingredient">
+                    <img src="images/sugar.jpg" alt="Sugar">
+                    <h3>Sugar</h3>
+                    <p>Adds sweetness to our delicious dessert.</p>
+                </article>
+
+                <article class="ingredient">
+                    <img src="images/sesame.jpg" alt="Sesame seeds">
+                    <h3>Sesame Seeds</h3>
+                    <p>Add a nutty flavor and delicious topping.</p>
+                </article>
+
+                <article class="ingredient">
+                    <img src="images/oil.jpg" alt="Cooking oil">
+                    <h3>Oil</h3>
+                    <p>To keep the palitaw and sago from sticking.</p>
+                </article>
+
+                <article class="ingredient">
+                    <img src="images/sago.jpg" alt="Sago">
+                    <h3>Sago</h3>
+                    <p>Adds a soft and chewy texture to every serving.</p>
+                </article>
+
+                <article class="ingredient">
+                    <img src="images/coconut-milk.jpg" alt="Coconut milk">
+                    <h3>Coconut Milk</h3>
+                    <p>Gives our palitaw its rich and creamy sauce.</p>
+                </article>
+
+                <article class="ingredient">
+                    <img src="images/food-color.jpg" alt="Food coloring">
+                    <h3>Food Color</h3>
+                    <p>Adds a touch of color to both our Original and Innovative variants.</p>
+                </article>
+
+                <article class="ingredient">
+                    <img src="images/disposable.jpg" alt="Disposable cups and spoons">
+                    <h3>Packaging & Utensils</h3>
+                    <p>Disposable cups and spoons keep servings neat and convenient.</p>
+                </article>
+            </div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">A LITTLE TREAT, A LOT OF LOVE</span>
+                <h1>Why Choose <span>PINOYANA?</span></h1>
+                <p>Good taste doesn't have to cost a lot.</p>
+            </div>
+
+            <div class="features">
+                <article class="feature-card">
+                    <div class="feature-icon">♡</div>
+                    <h2>Made with Love</h2>
+                    <p>Prepared with care to give customers a satisfying Filipino treat.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">₱</div>
+                    <h2>Affordable Price</h2>
+                    <p> Delicious and affordable Ginataang Palitaw, with Original at ₱15 and Innovated at ₱20 per serving!</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">🥥</div>
+                    <h2>Filipino Favorite</h2>
+                    <p>Enjoy soft palitaw with rich and creamy coconut milk.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h2>Two Delicious Variants</h2>
+                    <p>Choose between our Original and Innovated Ginataang Palitaw.</p>
+                </article>
+            </div>
+
+            <div class="why-banner">
+                <h2>Lutong Pinoy, Sarap Enjoy!</h2>
+                <p>A simple Filipino treat made to bring sweetness to every serving.</p>
+                <label for="products" class="btn light-btn">Discover Our Products ↗</label>
+            </div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">YOUR FAVORITE TREAT IS WAITING</span>
+                <h1>How to <span>Order</span></h1>
+                <p>Your favorite Filipino treat is just a few steps away!</p>
+            </div>
+
+            <div class="order-layout">
+                <div class="order-instructions">
+                    <h2>Order in 5 Easy Steps</h2>
+                    <div class="step"><b>01</b><span>Choose your preferred variant.</span></div>
+                    <div class="step"><b>02</b><span>Enter your name and contact number.</span></div>
+                    <div class="step"><b>03</b><span>Select your quantity.</span></div>
+                    <div class="step"><b>04</b><span>Choose pickup or delivery if available.</span></div>
+                    <div class="step"><b>05</b><span>Review your order summary on this website.</span></div>
+
+                    <div class="order-note">
+                        <strong>Ready to Order?</strong>
+                        <p>Message us today and enjoy a taste of Filipino goodness!</p>
+                        <a href="#order-form" class="btn primary">
+                            Go to Order Form ↓
+                        </a>
+                    </div>
+                </div>
+
+                <form class="order-form" id="order-form">
+                    <h2>Order Form</h2>
+
+                    <label for="customer">Customer Name</label>
+                    <input id="customer" type="text" placeholder="Enter your full name" required>
+
+                    <label for="phone">Contact Number</label>
+                    <input id="phone" type="tel" placeholder="Enter your active number" required>
+
+                    <label for="variant">Product Variant</label>
+                    <select id="variant" required>
+                        <option value="">Choose a variant</option>
+                        <option value="original">Original Ginataang Palitaw</option>
+                        <option value="innovated">Innovated Ginataang Palitaw</option>
+                    </select>
+
+                    <label for="quantity">Quantity</label>
+                    <input id="quantity" type="number" min="1" value="1" required>
+                    <p class="order-total" aria-live="polite">Select a variant to see the total.</p>
+
+                    <label for="option">Preferred Option</label>
+                    <select id="option" required>
+                        <option value="">Select an option</option>
+                        <option value="Pickup">Pickup</option>
+                        <option value="Delivery (if available)">Delivery (if available)</option>
+                    </select>
+
+                    <label for="notes">Additional Notes</label>
+                    <textarea id="notes" placeholder="Write your requests here"></textarea>
+
+                    <p class="form-hint">Your total updates automatically based on your selected variant and quantity.</p>
+                    <button type="submit" class="btn primary full-btn">Submit Order</button>
+                    <div class="order-summary" id="order-summary" aria-live="polite" hidden></div>
+                </form>
+            </div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">OUR LITTLE BUSINESS STORY</span>
+                <h1>A Glimpse of <span>PINOYANA</span></h1>
+                <p>Explore our products and the people behind our small business.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <figure><img src="images/original.jpg" alt="Original Ginataang Palitaw"><figcaption>Original Ginataang Palitaw</figcaption></figure>
+                <figure><img src="images/innovated.jpg" alt="Innovated Ginataang Palitaw"><figcaption>Innovated Ginataang Palitaw</figcaption></figure>
+                <figure><img src="images/packaging.jpg" alt="Product packaging"><figcaption>Product Packaging</figcaption></figure>
+                <figure><img src="images/ingredients.jpg" alt="Complete ingredients"><figcaption>Complete Ingredients</figcaption></figure>
+                <figure><img src="images/preparation.jpg" alt="Preparation process"><figcaption>Preparation Process</figcaption></figure>
+                <figure><img src="images/cooking.jpg" alt="Cooking and preparation"><figcaption>Cooking & Preparation</figcaption></figure>
+                <figure><img src="images/selling.jpg" alt="Selling activity"><figcaption>Selling Activity</figcaption></figure>
+                <figure><img src="images/team.jpg" alt="PINOYANA team"><figcaption>Our Team</figcaption></figure>
+            </div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">THE PEOPLE BEHIND THE PRODUCT</span>
+                <h1>Meet Our <span>Team</span></h1>
+                <p>Working together to bring Filipino goodness to our customers.</p>
+            </div>
+
+            <div class="team-grid">
+                <article class="member"><img src="images/ria-mae.jpg" alt="Ria Mae Guadiana"><h3>Guadiana, Ria Mae</h3><span>Business Owner</span></article>
+                <article class="member"><img src="images/nannette.jpg" alt="Nannette Lucana"><h3>Lucana, Nannette</h3><span>Web Developer</span></article>
+                <article class="member"><img src="images/keine-luis.jpg" alt="Keine Luis Sanico"><h3>Sanico, Keine Luis</h3><span>Finance Manager</span></article>
+                <article class="member"><img src="images/criscel.jpg" alt="Criscel Pombo"><h3>Pombo, Criscel</h3><span>Assistant Chef</span></article>
+                <article class="member"><img src="images/ariel.jpg" alt="Ariel Pombo"><h3>Pombo, Ariel</h3><span>Assistant Chef</span></article>
+                <article class="member"><img src="images/faith.jpg" alt="Faith Palada"><h3>Palada, Faith</h3><span>Promotional Video Actress</span></article>
+                <article class="member"><img src="images/robina.jpg" alt="Robina Calos"><h3>Calos, Robina</h3><span>Marketing Manager</span></article>
+                <article class="member"><img src="images/aljhur.jpg" alt="Aljhur Alma"><h3>Alma, Aljhur</h3><span>Purchasing Officer</span></article>
+                <article class="member"><img src="images/victor.jpg" alt="Victor Montibon"><h3>Montibon, Victor</h3><span>Purchasing Officer</span></article>
+                <article class="member"><img src="images/patt.jpg" alt="Patt Krishan Gagala"><h3>Gagala, Patt Krishan</h3><span>Purchasing Officer</span></article>
+            </div>
+
+            <div class="team-message">“Great things happen when we work together.” ♡</div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">YOUR VOICE MATTERS</span>
+                <h1>Customer <span>Feedback</span></h1>
+                <p>Your feedback helps us improve our product and serve you better.</p>
+            </div>
+
+            <div class="feedback-layout">
+                <div class="feedback-message">
+                    <div class="big-quote">“</div>
+                    <h2>We Value Your Feedback</h2>
+                    <p>
+                        Tell us about your experience with PINOYANA
+                        Ginataang Palitaw. Your suggestions help our
+                        small business grow.
+                    </p>
+                    <div class="star-decoration">★★★★★</div>
+                    <p class="tagline">Thank you for supporting PINOYANA!</p>
+                </div>
+
+                <form class="feedback-form">
+                    <label for="feedback-name">Customer Name <small>(optional)</small></label>
+                    <input id="feedback-name" type="text" placeholder="Enter your name">
+
+                    <label for="rating">Rate Our Product</label>
+                    <select id="rating" required>
+                        <option value="">Choose your rating</option>
+                        <option>★★★★★ - Excellent</option>
+                        <option>★★★★☆ - Very Good</option>
+                        <option>★★★☆☆ - Good</option>
+                        <option>★★☆☆☆ - Fair</option>
+                        <option>★☆☆☆☆ - Needs Improvement</option>
+                    </select>
+
+                    <label for="comments">Your Comments</label>
+                    <textarea id="comments" placeholder="Share your experience or suggestions..." required></textarea>
+
+                    <button type="submit" class="btn primary full-btn">Submit Feedback</button>
+                    <p class="form-hint">Thank you for taking the time to share your thoughts.</p>
+                    <p id="feedback-confirmation" class="feedback-success-alert" role="status" aria-live="polite" hidden>
+                        <span class="feedback-success-icon" aria-hidden="true">✓</span>
+                        <span>Thank you for your feedback! Your response has been received.</span>
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        
+        <section class="page">
+            <div class="section-heading">
+                <span class="eyebrow">WE ARE HAPPY TO HEAR FROM YOU</span>
+                <h1>Get in <span>Touch</span></h1>
+                <p>Have questions or want to order our Ginataang Palitaw?</p>
+            </div>
+
+            <div class="contact-layout">
+                <div class="contact-card">
+                    <div class="contact-icon">f</div>
+                    <h3>Facebook Page</h3>
+                    <p>Send us a message or learn more about our products.</p>
+                    <a href="https://www.facebook.com/profile.php?id=61594451850730"
+                       target="_blank" rel="noopener">Visit Our Facebook ↗</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">☎</div>
+                    <h3>Contact Number</h3>
+                    <p>Contact us for inquiries and orders.</p>
+                    <a href="tel:092133736315">0921 337 36315</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">⌖</div>
+                    <h3>Location / Pickup Point</h3>
+                    <p>Find us in our local community.</p>
+                    <strong>Brgy. Libas, San Julian, Eastern Samar</strong>
+                </div>
+            </div>
+
+            <div class="contact-banner">
+                <span>🥥</span>
+                <h2>Let's Share Something Sweet!</h2>
+                <p>We would love to hear from you!</p>
+                <label for="order" class="btn light-btn">Place Your Order ↗</label>
+            </div>
+        </section>
+
+    </main>
+
+    
+    <footer class="footer">
+        <div>
+            <strong>PINOYANA — Ginataang Palitaw</strong>
+            <p>Lutong Pinoy, Sarap Enjoy!</p>
+        </div>
+        <p>Bringing the goodness of Filipino delicacies to every serving.</p>
+        <small>© 2026 PINOYANA. All rights reserved.</small>
+    </footer>
+</div>
+</body>
+</html>
+<script>
+    // JavaScript para manatili ang kulay ng nav link kung saang seksyon ka nakatingin
+    const sections = document.querySelectorAll('.page');
+    const navLabels = document.querySelectorAll('.navigation label');
+
+    window.addEventListener('scroll', () => {
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (window.scrollY >= (sectionTop - 150)) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        navLabels.forEach(label => {
+            label.classList.remove('active-nav');
+            const forAttr = label.getAttribute('for');
+            if (forAttr === current) {
+                label.classList.add('active-nav');
+            }
+        });
+    });
+
+    const orderForm = document.querySelector('.order-form');
+    if (orderForm) {
+        const variantInput = orderForm.querySelector('#variant');
+        const quantityInput = orderForm.querySelector('#quantity');
+        const totalOutput = orderForm.querySelector('.order-total');
+        const orderSummary = orderForm.querySelector('#order-summary');
+        const unitPrices = {
+            original: 15,
+            innovated: 20
+        };
+        const formatPrice = amount => `₱${amount.toFixed(2)}`;
+        const getOrderTotal = () => {
+            const unitPrice = unitPrices[variantInput.value] || 0;
+            const quantity = Number(quantityInput.value) || 0;
+            return unitPrice * quantity;
+        };
+
+        const updateOrderTotal = () => {
+            totalOutput.textContent = unitPrices[variantInput.value]
+                ? `Estimated total: ${formatPrice(getOrderTotal())}`
+                : 'Select a variant to see the total.';
+        };
+
+        variantInput.addEventListener('change', updateOrderTotal);
+        quantityInput.addEventListener('input', updateOrderTotal);
+        updateOrderTotal();
+
+        orderForm.addEventListener('submit', event => {
+            event.preventDefault();
+            updateOrderTotal();
+
+            const details = [
+                ['Customer', orderForm.querySelector('#customer').value.trim()],
+                ['Contact number', orderForm.querySelector('#phone').value.trim()],
+                ['Product', variantInput.selectedOptions[0].textContent],
+                ['Quantity', quantityInput.value],
+                ['Preference', orderForm.querySelector('#option').selectedOptions[0].textContent],
+                ['Additional notes', orderForm.querySelector('#notes').value.trim() || 'None'],
+                ['Total', formatPrice(getOrderTotal())]
+            ];
+            const heading = document.createElement('h3');
+            heading.textContent = 'Order Submitted Successfully!';
+            const confirmation = document.createElement('p');
+            confirmation.className = 'order-success-alert';
+            const confirmationIcon = document.createElement('span');
+            confirmationIcon.className = 'order-success-icon';
+            confirmationIcon.setAttribute('aria-hidden', 'true');
+            confirmationIcon.textContent = '✓';
+            const confirmationText = document.createElement('span');
+            confirmationText.textContent = 'Thank you for ordering from PINOYANA! Your order has been confirmed. We appreciate your support!';
+            confirmation.append(confirmationIcon, confirmationText);
+            const list = document.createElement('dl');
+
+            details.forEach(([label, value]) => {
+                const term = document.createElement('dt');
+                const description = document.createElement('dd');
+                term.textContent = label;
+                description.textContent = value;
+                list.append(term, description);
+            });
+
+            orderSummary.replaceChildren(heading, confirmation, list);
+            orderSummary.hidden = false;
+        });
+    }
+
+    const orderScrollLink = document.querySelector('.order-note a[href="#order-form"]');
+    const orderFormTarget = document.querySelector('#order-form');
+
+    if (orderScrollLink && orderFormTarget) {
+        orderScrollLink.addEventListener('click', event => {
+            event.preventDefault();
+            orderFormTarget.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    }
+
+    const feedbackForm = document.querySelector('.feedback-form');
+    if (feedbackForm) {
+        const feedbackConfirmation = feedbackForm.querySelector('#feedback-confirmation');
+
+        feedbackForm.addEventListener('submit', event => {
+            event.preventDefault();
+            feedbackConfirmation.hidden = false;
+            feedbackForm.reset();
+        });
+    }
+</script>
